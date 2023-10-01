@@ -6,6 +6,7 @@
       "source.organizeImports": true
     },
   },
+  "python.defaultInterpreterPath": "local/venv/bin/python",
   "isort.args": [
     "--profile",
     "black"
