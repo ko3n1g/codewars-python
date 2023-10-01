@@ -1,4 +1,7 @@
-def dir_reduc(arr):
+from typing import List
+
+
+def dir_reduc(arr: List[str]) -> List[str]:
     REDUCING_DIRS = {
         "NORTH": "SOUTH",
         "SOUTH": "NORTH",
